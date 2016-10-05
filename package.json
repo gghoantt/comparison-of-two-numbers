@@ -4,7 +4,8 @@
   "description": "compare two numbers",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint .",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
   "homepage": "https://github.com/gghoantt/comparison-of-two-numbers#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.7.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2"
   }
 }
