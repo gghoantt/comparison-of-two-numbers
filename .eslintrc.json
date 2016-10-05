@@ -64,6 +64,7 @@
         "ignoreUrls": true
       }
     ],
+
     "max-lines": 0,
     "max-params": ["error", 4],
     "max-statements": 0,

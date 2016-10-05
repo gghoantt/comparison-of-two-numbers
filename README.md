@@ -8,7 +8,6 @@
 
 ## Usage
 
-
 ## Tests
 
   npm test
