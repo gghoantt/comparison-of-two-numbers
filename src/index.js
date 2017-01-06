@@ -3,7 +3,7 @@ var compare = (a, b, callback) => {
   let err;
 
   if (isNaN(a) && isNaN(b)) {
-    err = new Error('a and b are not number');
+    err = new Error('a and b are not numbers');
     return callback(err);
   }
 
